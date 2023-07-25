@@ -5,9 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>hello world</h1>
-    
+    <div class="container">
+        <div class="sidebar">
+            <div class="dash-header">
+                <img id="dash-icon" class="icon" src="images/view-dashboard.svg" alt="Dashboard Icon">
+                <h1>Dashboard</h1>
+            </div>
+            <ul class="top-bar">
+                <li><img class="icon" src="images/home.svg"><h2>Home</h2></li>
+                <li><img class="icon" src="images/profile.svg"><h2>Profile</h2></li>
+                <li><img class="icon" src="images/messages.svg"><h2>Messages</h2></li>
+                <li><img class="icon" src="images/history.svg"><h2>History</h2></li>
+                <li><img class="icon" src="images/tasks.svg"><h2>Tasks</h2></li>
+                <li><img class="icon" src="images/communities.svg"><h2>Communities</h2></li>
+            </ul>
+            <ul class="bottom-bar">
+                <li><img class="icon" src="images/settings.svg"><h2>Settings</h2></li>
+                <li><img class="icon" src="images/support.svg"><h2>Support</h2></li>
+                <li><img class="icon" src="images/privacy.svg"><h2>Privacy</h2></li>
+            </ul>
+        </div>
+        <div class="page">
+            <div class="header-top">
+                <img class="article-icon" src="images/search.svg" alt="search icon">
+                <div id="search-box"></div>
+                <img class="article-icon" src="images/ringtone.svg" alt="ringtone icon">
+                <img id="profile-pic" src="images/sheep-profile.jpeg" alt="bunny profile">
+                <div id="top-username">Riley Ham</div>
+            </div>
+            <div class="header-bottom">
+                <div class="user-welcome">
+                    <img id="id-pic" src="images/sheep-profile.jpeg" alt="sheep profile">
+                    <div class="welcome-text">
+                        <h3>Hi there,</h3>
+                        <h1>Riley Ham (@riley)</h1>
+                    </div>
+                </div>            
+            
+                <div class="content-buttons">
+                    <div class="content-button">New</div>
+                    <div class="content-button">Upload</div>
+                    <div class="content-button">Share</div>
+                </div>
+            </div>
+            <div class="article"></div>
+        </div>
+        
+    </div>
 </body>
 </html>
