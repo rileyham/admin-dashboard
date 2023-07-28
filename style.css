@@ -85,12 +85,13 @@ li > h2:hover {
 }
 
 .article {
-    grid-row: 3 / 4;
+    grid-row: 1 / 2;
     background-color: #e3e8ef;
     display: grid;
     gap: 15px;
     padding: 15px;
     grid-template-columns: 1fr 1fr;
+    grid-column: 1 / 2;
 }
 
 #profile-pic {
@@ -153,7 +154,7 @@ li > h2:hover {
     border-bottom-color: white;
     border-left-color: #83a18e;
     border-width: 8px;
-    height: 200px;
+    height: 150px;
     width: 300px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -173,3 +174,36 @@ p {
     font-family: sans-serif;
 }
 
+.article-wrapper {
+    display: grid;
+    grid-template-columns: 900px 250px;
+}
+
+.article-sidebar {
+    grid-column: 2 / 3;
+    background-color: #e3e8ef;
+}
+
+.trending-box {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+}
+
+.trending-item {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.trending-item > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.trending-text > h3 {
+    font-size: 16px;
+    margin: 0px;
+}
