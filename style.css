@@ -67,7 +67,7 @@ li > h2:hover {
 
 .page {
     display: grid;
-    grid-template-rows: 80px 100px 600px;
+    grid-template-rows: 80px 80px 600px;
 }
 
 .header-top {
@@ -91,6 +91,7 @@ li > h2:hover {
     gap: 15px;
     padding: 15px;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 163px 170px 170px;
     grid-column: 1 / 2;
 }
 
@@ -176,7 +177,7 @@ p {
 
 .article-wrapper {
     display: grid;
-    grid-template-columns: 900px 250px;
+    grid-template-columns: 750px 400px;
 }
 
 .article-sidebar {
@@ -187,23 +188,46 @@ p {
 .trending-box {
     background-color: white;
     border-radius: 5px;
-    padding: 20px;
-    width: 200px;
+    padding: 10px;
+    padding-left: 20px;
+    width: 300px;
 }
 
 .trending-item {
     display: flex;
     padding: 10px 0px;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .trending-item > img {
     width: 40px;
     height: 40px;
     border-radius: 40px;
+    margin-right: 20px;
 }
 
 .trending-text > h3 {
     font-size: 16px;
     margin: 0px;
+}
+
+.announcement-box {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+br {
+    color: #e3e8ef;
+    height: 1px;
+}
+
+.article-box > h3 {
+    background-color: #e3e8ef;
+    padding: 15px 15px 0px;
+}
+
+.announcements > h3, .trending > h3 {
+    padding: 10px;
 }
